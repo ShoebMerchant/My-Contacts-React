@@ -11,7 +11,6 @@ function App() {
         return (
           <Card
             key={contact.id}
-            k={contact.id}
             name={contact.name}
             img={contact.imgURL}
             tel={contact.phone}
